@@ -1,7 +1,30 @@
-# Socket Programming in C++
+# TCP Server/Client in C++
 
-This is a project used to learn socket programming in C++. It isn't meant to be used on a professional context.
-It consists of a TCP Server/Client written in C++. 
+TCP Server/Client written in C++.
 
-### Build Instructions
+This code was written to run on Linux machines, and to compile with C++ 11.
 
+The server class supports multiple clients.
+
+## Build Instructions
+
+This project is set to use CMake. In addition, CMake builds a static library
+file to hold the common code to both server and client.
+
+To build:
+
+```
+$ git clone https://github.com/roemvaar/sockets.git
+$ cd sockets
+$ mkdir build
+$ cmake ..
+$ make
+```
+
+## Usage
+
+### Examples - Single Client
+
+### Examples - Multiclient
+
+Inspiration: github.com/elhayra/tcp_server_client
