@@ -2,6 +2,13 @@
 
 using namespace std;
 
+class TCPClient {
+    public:
+        TCPClient();
+        ~TCPClient();
+    private:    
+};
+
 
 int main(int argc, char *argv[])
 {
