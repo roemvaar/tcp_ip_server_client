@@ -2,10 +2,10 @@
 
 using namespace std;
 
-class TCPClient {
+class TCPServer {
     public:
-        TCPClient();
-        ~TCPClient();
+        TCPServer();
+        ~TCPServer();
     private:    
 };
 
