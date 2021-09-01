@@ -6,8 +6,17 @@ class TCPClient {
     public:
         TCPClient();
         ~TCPClient();
-    private:    
+        int connectToServer();
+        int sendMessage();
+    private: 
 };
+
+TCPClient::TCPClient
+{
+
+}
+
+
 
 
 int main(int argc, char *argv[])
