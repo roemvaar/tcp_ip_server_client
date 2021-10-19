@@ -13,11 +13,13 @@ class TCPClient {
 
 TCPClient::TCPClient
 {
-
+    // Create a socket
 }
 
-
-
+TCPClient::connectToServer()
+{
+    
+}
 
 int main(int argc, char *argv[])
 {
