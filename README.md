@@ -32,7 +32,7 @@ To run the single client example, open a terminal, move to the build folder and 
 
 ```./tcp_server```
 
-In another termina, move to the build folder and execute the client by:
+In another terminal, move to the build folder and execute the client by:
 
 ```./tcp_client```
 
@@ -41,5 +41,3 @@ In another termina, move to the build folder and execute the client by:
 For the multiclient example, you have to pass ```--multiclient``` to make as argument,
 and then, you will end up with four files: ```libtcp_client_server.a```, ```tcp_client_1```,
 ```tcp_client_2```, ```tcp_client_3``` and ```tcp_server```.
-
-Inspiration: github.com/elhayra/tcp_server_client
