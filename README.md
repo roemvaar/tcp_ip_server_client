@@ -1,6 +1,6 @@
-# TCP Server/Client in C++
+# TCP/IP Server/Client in C++
 
-TCP Server/Client written in C++.
+TCP/IP Server/Client written in C++.
 
 This code was written to run on Linux machines, and to compile with C++ 11.
 
@@ -16,8 +16,7 @@ To build for the single client:
 ```
 $ git clone https://github.com/roemvaar/tcp_server_client.git
 $ cd tcp_server_client
-$ mkdir build
-$ cmake ..
+$ cmake
 $ make
 ```
 
