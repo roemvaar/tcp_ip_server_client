@@ -4,7 +4,9 @@ The internet protocol suite, aka TCP/IP, is a set of communications protocols us
 computer networks. The current foundational protocols in the suite are the Transmission Control Protocol (TCP)
 and the Internet Protocol (IP).
 
-TCP/IP was designed to be independent of networking hardware and shouold run accross any connection media. The most
+![image](https://www.bogotobogo.com/cplusplus/images/socket/TCP_IP_socket_diagram.png)
+
+TCP/IP was designed to be independent of networking hardware and should run accross any connection media. The most
 common use is over Ethernet networks.
 
 ![image](https://user-images.githubusercontent.com/20572328/148590724-8f063f51-8a13-4e1d-9726-f543beb2de31.png)
@@ -15,6 +17,10 @@ and/or **services**.
 
 Just as the IP address identifies the computer, the network **port** identifies the **application or service** running
 on the computer.
+
+It is the socket pair (the 4-tuple consisting of the client IP address, client
+port number, server IP address, and server port number) that specifies the two
+endpoints that uniquely identifies each TCP connection in an internet.
 
 ```The use of ports allow computers/devices to run multiple services/applications```
 
