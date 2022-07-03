@@ -40,3 +40,5 @@ In another terminal, move to the build folder and execute the client by:
 For the multiclient example, you have to pass ```--multiclient``` to make as argument,
 and then, you will end up with four files: ```libtcp_client_server.a```, ```tcp_client_1```,
 ```tcp_client_2```, ```tcp_client_3``` and ```tcp_server```.
+
+Inspo: ECE 716 Project - tcp server - https://git.uwaterloo.ca/revalenz/ece716_project/-/tree/master/src
